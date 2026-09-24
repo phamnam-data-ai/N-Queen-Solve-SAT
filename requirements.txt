@@ -1,0 +1,8 @@
+# Core solvers and experiment tooling.  Commercial solvers are optional; see README.
+python-sat>=1.8.dev15
+ortools>=9.11
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+pytest>=8.0
+psutil>=5.9
