@@ -45,11 +45,11 @@ The following values are automatically captured by `results/environment.json`:
 | --- | --- |
 | OS / Python | Windows-11-10.0.26100-SP0 / 3.13.9 |
 | CPU / RAM | Intel64 Family 6 Model 186 Stepping 3, GenuineIntel / 34029125632 bytes |
-| Packages | python-sat=1.9.dev15, ortools=9.15.6755, numpy=2.3.5, pandas=2.3.3, matplotlib=3.10.6, psutil=7.0.0, gurobipy=unavailable, docplex=unavailable, cplex=unavailable |
-| N values | [4, 8, 10] |
-| Repetitions | 2 |
+| Packages | python-sat=1.9.dev15, ortools=unavailable, numpy=2.5.3, pandas=3.0.6, matplotlib=unavailable, psutil=7.2.2, gurobipy=unavailable, docplex=unavailable, cplex=unavailable |
+| N values | [150, 200, 300, 500] |
+| Repetitions | 1 |
 | Timeout per experiment | 60.0 s |
-| Methods / SAT backend | ['sat', 'cpsat'] / glucose3 |
+| Methods / SAT backend | ['sat'] / glucose3 |
 | SAT parameters | encodings=['pairwise', 'sequential', 'binary', 'commander', 'product']; commander group=3; product dimension=None |
 <!-- END AUTO ENVIRONMENT -->
 
