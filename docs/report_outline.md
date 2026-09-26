@@ -45,8 +45,8 @@ The following values are automatically captured by `results/environment.json`:
 | --- | --- |
 | OS / Python | Windows-11-10.0.26100-SP0 / 3.13.9 |
 | CPU / RAM | Intel64 Family 6 Model 186 Stepping 3, GenuineIntel / 34029125632 bytes |
-| Packages | python-sat=1.9.dev15, ortools=unavailable, numpy=2.5.3, pandas=3.0.6, matplotlib=unavailable, psutil=7.2.2, gurobipy=unavailable, docplex=unavailable, cplex=unavailable |
-| N values | [150, 200, 300, 500] |
+| Packages | python-sat=1.9.dev15, ortools=9.15.6755, numpy=2.5.3, pandas=3.0.6, matplotlib=3.11.2, psutil=7.2.2, gurobipy=13.0.3, docplex=2.32.264, cplex=22.2.0.1 |
+| N values | [8, 16, 20, 25, 30] |
 | Repetitions | 1 |
 | Timeout per experiment | 60.0 s |
 | Methods / SAT backend | ['sat'] / glucose3 |
