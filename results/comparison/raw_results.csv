@@ -1,0 +1,17 @@
+timestamp,n,method,encoding,backend,repeat,status,build_time_sec,solve_time_sec,total_time_sec,num_variables,num_clauses,num_constraints,solution_valid,error_message
+2026-09-26T10:09:01.912188+00:00,150,cpsat,,ortools-cp-sat,1,OPTIMAL,0.5883231999996497,22.213289299999815,22.801612499999464,150,,3,True,
+2026-09-26T10:09:02.568236+00:00,150,gurobi,,gurobi,1,SKIPPED,0.2743659000007028,0.00013490000128513202,0.27450080000198795,22500,,894,,Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+2026-09-26T10:09:04.650745+00:00,150,cplex-mip,,cplex-mip,1,SKIPPED,1.3525508000002446,0.00014480000027106144,1.3526956000005157,22500,,894,,Cannot solve model: no CPLEX runtime found.
+2026-09-26T10:09:06.290362+00:00,150,cplex-cp,,cplex-cp,1,SKIPPED,1.2041778000002523,0.003847600000881357,1.2080254000011337,150,,3,,Executable file 'cpoptimizer.exe' does not exists
+2026-09-26T10:09:36.036917+00:00,200,cpsat,,ortools-cp-sat,1,OPTIMAL,1.2214913999996497,28.140286699999706,29.361778099999356,200,,3,True,
+2026-09-26T10:09:37.097735+00:00,200,gurobi,,gurobi,1,SKIPPED,0.632576699999845,0.00033149999944726005,0.6329081999992923,40000,,1194,,Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+2026-09-26T10:09:39.663258+00:00,200,cplex-mip,,cplex-mip,1,SKIPPED,1.7028737000000547,0.0003789000002143439,1.703252600000269,40000,,1194,,Cannot solve model: no CPLEX runtime found.
+2026-09-26T10:09:41.144404+00:00,200,cplex-cp,,cplex-cp,1,SKIPPED,0.8431003000005148,0.006766399999833084,0.8498667000003479,200,,3,,Executable file 'cpoptimizer.exe' does not exists
+2026-09-26T10:10:41.250268+00:00,300,cpsat,,ortools-cp-sat,1,TIMEOUT,,,60.01833640000041,,,,,wall-clock timeout after 60.0 seconds
+2026-09-26T10:10:43.609179+00:00,300,gurobi,,gurobi,1,SKIPPED,1.7808948000001692,0.0001889000013761688,1.7810837000015454,90000,,1794,,Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+2026-09-26T10:10:46.896110+00:00,300,cplex-mip,,cplex-mip,1,SKIPPED,2.506432100000893,0.00013840000065101776,2.506570500001544,90000,,1794,,Cannot solve model: no CPLEX runtime found.
+2026-09-26T10:10:48.878947+00:00,300,cplex-cp,,cplex-cp,1,SKIPPED,1.3432409000015468,0.002836800000295625,1.3460777000018425,300,,3,,Executable file 'cpoptimizer.exe' does not exists
+2026-09-26T10:11:49.003181+00:00,500,cpsat,,ortools-cp-sat,1,TIMEOUT,,,60.01726789999884,,,,,wall-clock timeout after 60.0 seconds
+2026-09-26T10:11:54.537683+00:00,500,gurobi,,gurobi,1,SKIPPED,4.89640849999887,0.00021750000087195076,4.896625999999742,250000,,2994,,Model too large for size-limited license; visit https://gurobi.com/unrestricted for more information
+2026-09-26T10:12:00.640228+00:00,500,cplex-mip,,cplex-mip,1,SKIPPED,5.423679899999115,0.00021829999968758784,5.423898199998803,250000,,2994,,Cannot solve model: no CPLEX runtime found.
+2026-09-26T10:12:01.912020+00:00,500,cplex-cp,,cplex-cp,1,SKIPPED,0.7401656999991246,0.004709100001491606,0.7448748000006162,500,,3,,Executable file 'cpoptimizer.exe' does not exists

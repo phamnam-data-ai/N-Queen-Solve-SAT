@@ -1,0 +1,45 @@
+{
+  "timestamp_utc": "2026-09-26T10:36:22.429904+00:00",
+  "os": "Windows-11-10.0.26100-SP0",
+  "python": "3.13.9",
+  "cpu": "Intel64 Family 6 Model 186 Stepping 3, GenuineIntel",
+  "physical_cpu_count": 10,
+  "logical_cpu_count": 12,
+  "ram_bytes": 34029125632,
+  "package_versions": {
+    "python-sat": "1.9.dev15",
+    "ortools": "9.15.6755",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "matplotlib": "3.11.2",
+    "psutil": "7.2.2",
+    "gurobipy": "13.0.3",
+    "docplex": "2.32.264",
+    "cplex": "22.2.0.1"
+  },
+  "benchmark_configuration": {
+    "n_values": [
+      8,
+      16,
+      20,
+      25,
+      30
+    ],
+    "methods": [
+      "sat"
+    ],
+    "sat_encodings": [
+      "pairwise",
+      "sequential",
+      "binary",
+      "commander",
+      "product"
+    ],
+    "repeats": 1,
+    "timeout_sec": 60.0,
+    "sat_backend": "glucose3",
+    "warmup": false,
+    "commander_group_size": 3,
+    "product_dimension": null
+  }
+}
